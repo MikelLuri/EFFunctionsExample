@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFWFunctions2", "EntityFWFunctions2\EntityFWFunctions2.csproj", "{02564860-E75F-49C7-9430-414B5F7EEA0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{71EF5EAD-6FBA-448E-B4DC-432DE03A238D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{02564860-E75F-49C7-9430-414B5F7EEA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02564860-E75F-49C7-9430-414B5F7EEA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02564860-E75F-49C7-9430-414B5F7EEA0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71EF5EAD-6FBA-448E-B4DC-432DE03A238D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71EF5EAD-6FBA-448E-B4DC-432DE03A238D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71EF5EAD-6FBA-448E-B4DC-432DE03A238D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71EF5EAD-6FBA-448E-B4DC-432DE03A238D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
