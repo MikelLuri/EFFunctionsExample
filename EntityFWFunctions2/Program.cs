@@ -13,11 +13,13 @@ namespace EntityFWFunctions2
         {
             using (var context = new MyContext())
             {
-                var people = context.Persons.ToList();
+                var people = context.Persons.Select(p => new {
+                    FullName = String.Concat(p.FirstName, " ", p.LastName)
+                }).ToList();
 
                 foreach(var person in people)
                 {
-                    Console.WriteLine(person.FirstName + " " + person.LastName);
+                    Console.WriteLine(person.FullName);
                 }
             }
         }
