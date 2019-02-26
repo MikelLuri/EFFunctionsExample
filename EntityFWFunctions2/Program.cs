@@ -14,7 +14,7 @@ namespace EntityFWFunctions2
             using (var context = new MyContext())
             {
                 var people = context.Persons.Select(p => new {
-                    FullName = String.Concat(p.FirstName, " ", p.LastName)
+                    FullName = p.FormatName()
                 }).ToList();
 
                 foreach(var person in people)
@@ -23,5 +23,6 @@ namespace EntityFWFunctions2
                 }
             }
         }
+
     }
 }

@@ -1,4 +1,5 @@
 ﻿using DataAccess.Migrations;
+using EntityFramework.Functions;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -21,6 +22,8 @@ namespace DataAccess
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.AddFunctions(typeof(ModelDefinedFunctions));
         }
     }
 }
